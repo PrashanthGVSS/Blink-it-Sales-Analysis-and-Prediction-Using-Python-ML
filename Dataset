@@ -1,0 +1,15 @@
+The dataset contains information on various items sold across different outlets. The columns include:
+
+Item Fat Content
+Item Identifier
+Item Type
+Outlet Establishment Year
+Outlet Identifier
+Outlet Location Type
+Outlet Size
+Outlet Type
+Item Visibility
+Item Weight
+Sales
+Rating
+The dataset includes 8,523 observations, with some missing values in the Item Weight column.
