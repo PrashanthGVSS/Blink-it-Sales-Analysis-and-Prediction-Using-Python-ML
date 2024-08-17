@@ -1,0 +1,21 @@
+Model Performance Summary:
+Linear Regression:
+
+Mean Squared Error (MSE): 3899.11
+R² Score: -0.00
+Interpretation: The Linear Regression model performed poorly, as indicated by the R² score close to zero, which suggests that the model is not able to explain any of the variance in the Sales data. The high MSE also shows large prediction errors.
+Decision Tree:
+
+MSE: 2380.29
+R² Score: 0.39
+Interpretation: The Decision Tree model performed better than Linear Regression, explaining about 39% of the variance in sales. However, the MSE is still relatively high, indicating that the model is not highly accurate in predicting sales.
+Random Forest:
+
+MSE: 1571.22
+R² Score: 0.60
+Interpretation: The Random Forest model significantly outperformed both Linear Regression and the Decision Tree, with a much lower MSE and an R² score of 0.60. This means that the Random Forest model can explain 60% of the variance in sales, making it a more reliable model.
+Tuned Random Forest:
+
+MSE: 1645.60
+R² Score: 0.58
+Interpretation: After hyperparameter tuning, the performance of the Random Forest model slightly decreased, with a small increase in MSE and a decrease in the R² score. This suggests that the default Random Forest model was already well-optimized for this dataset, and further tuning did not yield significant improvements.
